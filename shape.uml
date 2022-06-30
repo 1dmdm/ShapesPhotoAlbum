@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>shape</OriginalElement>
+  <nodes>
+    <node x="533.0" y="640.0">shape.Size</node>
+    <node x="0.0" y="518.0">shape.Oval</node>
+    <node x="759.0" y="640.0">shape.TypeofShape</node>
+    <node x="284.5" y="0.0">shape.IShape</node>
+    <node x="283.0" y="640.0">shape.Position</node>
+    <node x="0.0" y="640.0">shape.Color</node>
+    <node x="160.0" y="191.0">shape.AbstractShape</node>
+    <node x="367.0" y="518.0">shape.Rectangle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="shape.AbstractShape" target="shape.IShape" relationship="REALIZATION">
+      <point x="0.0" y="-138.5" />
+      <point x="0.0" y="70.5" />
+    </edge>
+    <edge source="shape.Rectangle" target="shape.AbstractShape" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="557.5" y="493.0" />
+      <point x="365.5" y="493.0" />
+      <point x="0.0" y="138.5" />
+    </edge>
+    <edge source="shape.Oval" target="shape.AbstractShape" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="173.5" y="493.0" />
+      <point x="365.5" y="493.0" />
+      <point x="0.0" y="138.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.4734982332155477" showDependencies="false" x="499.5" y="414.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

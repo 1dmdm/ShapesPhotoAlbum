@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>model</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">model.IModel</node>
+    <node x="0.0" y="258.0">model.Model</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.Model" target="model.IModel" relationship="REALIZATION">
+      <point x="0.0" y="-115.5" />
+      <point x="0.0" y="104.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7897838899803536" showDependencies="false" x="212.0" y="244.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
